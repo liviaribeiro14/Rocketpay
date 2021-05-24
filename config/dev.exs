@@ -3,9 +3,9 @@ use Mix.Config
 # Configure your database
 config :rocketpay, Rocketpay.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "docker",
   database: "rocketpay_dev",
-  hostname: "192.168.0.13",
+  hostname: "192.168.0.18",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
