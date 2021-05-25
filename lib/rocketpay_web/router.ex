@@ -11,6 +11,8 @@ defmodule RocketpayWeb.Router do
     get "/:filename", WelcomeController, :index
 
     get "/test/infinite", WelcomeController, :infinite_test
+
+    post "/users", UsersController, :create
   end
 
   # Enables LiveDashboard only for development
