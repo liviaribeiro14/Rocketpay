@@ -28,7 +28,7 @@ defmodule RocketpayWeb.UsersViewTest do
           id: account_id
         },
         id: user_id,
-        name: "Livs",
+        name: "Liv",
         nickname: "Livs7"
       }
     }
